@@ -430,7 +430,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void playYoutubeVideo(url) {
     FlutterYoutube.playYoutubeVideoByUrl(
-      apiKey: "AIzaSyC7gogJ7CLMhlRTcjPyqODhTpydVwYDsNY",
+      apiKey: "<API-KEY>",
       videoUrl: url,
     );
   }
